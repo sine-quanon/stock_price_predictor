@@ -161,7 +161,7 @@ st.pyplot()
 
 # Use a scatterplot with a regression line to show the relationship between the true values and predictions
 sns.scatterplot(x=y_test, y=y_pred)
-sns.regplot(y_test, y_pred)
+sns.regplot(x=y_test, y=y_pred)
 plt.xlabel('True values')
 plt.ylabel('Predictions')
 plt.title('True Values vs Predictions')
