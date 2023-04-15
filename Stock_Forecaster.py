@@ -160,7 +160,7 @@ plt.title('Mean of True Values')
 st.pyplot()
 
 # Use a scatterplot with a regression line to show the relationship between the true values and predictions
-sns.scatterplot(y_test, y_pred)
+sns.lmplot(y_test, y_pred)
 sns.regplot(y_test, y_pred)
 plt.xlabel('True values')
 plt.ylabel('Predictions')
